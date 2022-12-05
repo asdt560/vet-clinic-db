@@ -1,48 +1,93 @@
-# curriculum-databases-projects-template
+<a name="readme-top"></a>
+# 📗 Table of Contents
 
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
+# 📖 vet-clinic-db <a name="about-project"></a>
 
-## Getting Started
+**vet-clinic-db** is a simple database that stores information about animals.
 
-This repository includes files with plain SQL that can be used to recreate a database:
+## 🛠 Built With <a name="built-with"></a>
 
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
+### Tech Stack <a name="tech-stack"></a>
 
+<details>
+  <summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
 
-## Authors
+### Key Features <a name="key-features"></a>
 
-👤 **Author1**
+- animals table with animal information
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-👤 **Author2**
+## 💻 Getting Started <a name="getting-started"></a>
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+To get a local copy up and running, follow these steps.
 
-## 🤝 Contributing
+### Prerequisites
+
+Requires postgreSQL installed.
+
+### Usage
+
+Use createdb to create the database in your machine. Then use psql (database_name) to enter. Then use the commands in the project to create the table, add data and perform queries.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Author <a name="author"></a>
+
+👤 **Justo Rago**
+
+- GitHub: [@githubhandle](https://github.com/asdt560)
+- Twitter: [@twitterhandle](https://twitter.com/JustoRago)
+- LinkedIn: [LinkedIn]( www.linkedin.com/in/justo-rago-0714b5208)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+## ⭐️ Show your support <a name="support"></a>
 
-## Acknowledgments
+If you like this project then support it with a star.
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 📝 License
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-This project is [MIT](./MIT.md) licensed.
+Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
