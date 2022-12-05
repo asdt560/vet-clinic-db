@@ -3,9 +3,10 @@
 
 CREATE TABLE animals(
     id INT GENERATED ALWAYS AS IDENTITY, 
-    name TEXT, 
+    name VARCHAR(255), 
     date_of_birth DATE, 
     escape_attempts INT, 
     neutered BOOLEAN, 
-    weight_kg decimal
+    weight_kg decimal,
+    PRIMARY KEY(id)
 );
