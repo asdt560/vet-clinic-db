@@ -25,6 +25,6 @@ CREATE TABLE species(
     name VARCHAR(255),
     PRIMARY KEY(id)
 );
-
+ALTER TABLE animals DROP COLUMN species;
 ALTER TABLE animals ADD CONSTRAINT fk_owner FOREIGN KEY(owner_id) REFERENCES owners(id);
 ALTER TABLE animals ADD CONSTRAINT fk_species FOREIGN KEY(species_id) REFERENCES species(id);
