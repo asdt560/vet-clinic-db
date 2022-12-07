@@ -8,8 +8,8 @@ CREATE TABLE animals(
     escape_attempts INT, 
     neutered BOOLEAN, 
     weight_kg decimal,
-    species_id VARCHAR(255) references species(name),
-    owner_id VARCHAR(255) references owner(name),
+    owner_id INT,
+    species_id INT,
     PRIMARY KEY(id)
 );
 
@@ -26,3 +26,5 @@ CREATE TABLE species(
     PRIMARY KEY(id)
 );
 
+ALTER TABLE animals ADD CONSTRAINT fk_owner FOREIGN KEY(owner_id) REFERENCES owners(id);
+ALTER TABLE animals ADD CONSTRAINT fk_species FOREIGN KEY(species_id) REFERENCES species(id);
